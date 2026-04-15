@@ -15,6 +15,10 @@ const options: Options = {
         url: "http://localhost:3000",
         description: "Local server",
       },
+      {
+        url: "https://restapi-graphql.onrender.com/",
+        description: "Production server (Render)",
+      },
     ],
     tags: [
       {
