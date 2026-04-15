@@ -1,7 +1,7 @@
 // Repo: mock reviews
-import { reviews } from "../data/mock/reviews.mock.faker";
-import { ReviewRepository, CreateReviewInput } from "../interfaces/review.repository.interface";
-import { Review } from "../models/review.model";
+import { reviews } from "../data/mock/reviews.mock.faker.js";
+import { ReviewRepository, CreateReviewInput } from "../interfaces/review.repository.interface.js";
+import { Review } from "../models/review.model.js";
 
 export class MockReviewRepository implements ReviewRepository {
     // list
