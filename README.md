@@ -39,13 +39,19 @@ npm run dev
 ## Serveri aadressid
 
 REST API:  
-http://localhost:3000/api/v1  
+http://localhost:3000/api/v1
+või
+https://restapi-graphql.onrender.com/api/v1
 
 Swagger:  
-http://localhost:3000/api-docs  
+http://localhost:3000/api-docs
+või
+https://restapi-graphql.onrender.com/api-docs/
 
 GraphQL:  
-http://localhost:3000/graphql  
+http://localhost:3000/graphql
+või
+https://restapi-graphql.onrender.com/graphql
 
 ---
 
@@ -54,42 +60,49 @@ http://localhost:3000/graphql
 ## Kõigi raamatute küsimine
 
 GET http://localhost:3000/api/v1/books
+https://restapi-graphql.onrender.com/api/v1/books
 
 ---
 
 ## Filtreeritud päring
 
 GET http://localhost:3000/api/v1/books?title=the&language=English&page=1&limit=5
+https://restapi-graphql.onrender.com/api/v1/books?title=the&language=English&page=1&limit=5
 
 ---
 
 ## Sorteerimine
 
 GET http://localhost:3000/api/v1/books?sortBy=title&order=asc&page=1&limit=5
+https://restapi-graphql.onrender.com/api/v1/books?sortBy=title&order=asc&page=1&limit=5
 
 ---
 
 ## Üks raamat
 
 GET http://localhost:3000/api/v1/books/1
+https://restapi-graphql.onrender.com/api/v1/books/1
 
 ---
 
 ## Keeled
 
 GET http://localhost:3000/api/v1/books/languages
+https://restapi-graphql.onrender.com/api/v1/books/languages
 
 ---
 
 ## Review’d raamatu kohta
 
 GET http://localhost:3000/api/v1/books/1/reviews
+https://restapi-graphql.onrender.com/api/v1/books/1/reviews
 
 ---
 
 ## Uue raamatu lisamine
 
 POST http://localhost:3000/api/v1/books
+https://restapi-graphql.onrender.com/api/v1/books
 
 Body:
 ```
@@ -111,6 +124,7 @@ Body:
 ## Raamatu uuendamine
 
 PUT http://localhost:3000/api/v1/books/1
+https://restapi-graphql.onrender.com/api/v1/books/1
 
 Body:
 ```
@@ -124,12 +138,14 @@ Body:
 ## Raamatu kustutamine
 
 DELETE http://localhost:3000/api/v1/books/1
+https://restapi-graphql.onrender.com/api/v1/books/1
 
 ---
 
 ## Review lisamine
 
 POST http://localhost:3000/api/v1/books/1/reviews
+https://restapi-graphql.onrender.com/api/v1/books/1/reviews
 
 Body:
 ```
@@ -144,7 +160,9 @@ Body:
 # GraphQL näited
 
 Endpoint:  
-http://localhost:3000/graphql  
+http://localhost:3000/graphql
+või
+https://restapi-graphql.onrender.com/graphql
 
 ---
 
