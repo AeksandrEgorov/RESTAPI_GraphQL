@@ -59,49 +59,70 @@ https://restapi-graphql.onrender.com/graphql
 
 ## Kõigi raamatute küsimine
 
-GET http://localhost:3000/api/v1/books
+GET 
+
+http://localhost:3000/api/v1/books
+
 https://restapi-graphql.onrender.com/api/v1/books
 
 ---
 
 ## Filtreeritud päring
 
-GET http://localhost:3000/api/v1/books?title=the&language=English&page=1&limit=5
+GET 
+
+http://localhost:3000/api/v1/books?title=the&language=English&page=1&limit=5
+
 https://restapi-graphql.onrender.com/api/v1/books?title=the&language=English&page=1&limit=5
 
 ---
 
 ## Sorteerimine
 
-GET http://localhost:3000/api/v1/books?sortBy=title&order=asc&page=1&limit=5
+GET 
+
+http://localhost:3000/api/v1/books?sortBy=title&order=asc&page=1&limit=5
+
 https://restapi-graphql.onrender.com/api/v1/books?sortBy=title&order=asc&page=1&limit=5
 
 ---
 
 ## Üks raamat
 
-GET http://localhost:3000/api/v1/books/1
+GET 
+
+http://localhost:3000/api/v1/books/1
+
 https://restapi-graphql.onrender.com/api/v1/books/1
 
 ---
 
 ## Keeled
 
-GET http://localhost:3000/api/v1/books/languages
+GET 
+
+http://localhost:3000/api/v1/books/languages
+
 https://restapi-graphql.onrender.com/api/v1/books/languages
 
 ---
 
 ## Review’d raamatu kohta
 
-GET http://localhost:3000/api/v1/books/1/reviews
+GET 
+
+http://localhost:3000/api/v1/books/1/reviews
+
 https://restapi-graphql.onrender.com/api/v1/books/1/reviews
 
 ---
 
 ## Uue raamatu lisamine
 
-POST http://localhost:3000/api/v1/books
+POST 
+
+http://localhost:3000/api/v1/books
+
 https://restapi-graphql.onrender.com/api/v1/books
 
 Body:
@@ -123,7 +144,10 @@ Body:
 
 ## Raamatu uuendamine
 
-PUT http://localhost:3000/api/v1/books/1
+PUT 
+
+http://localhost:3000/api/v1/books/1
+
 https://restapi-graphql.onrender.com/api/v1/books/1
 
 Body:
@@ -137,14 +161,20 @@ Body:
 
 ## Raamatu kustutamine
 
-DELETE http://localhost:3000/api/v1/books/1
+DELETE 
+
+http://localhost:3000/api/v1/books/1
+
 https://restapi-graphql.onrender.com/api/v1/books/1
 
 ---
 
 ## Review lisamine
 
-POST http://localhost:3000/api/v1/books/1/reviews
+POST 
+
+http://localhost:3000/api/v1/books/1/reviews
+
 https://restapi-graphql.onrender.com/api/v1/books/1/reviews
 
 Body:
